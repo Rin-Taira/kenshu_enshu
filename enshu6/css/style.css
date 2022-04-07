@@ -1,0 +1,42 @@
+body {
+    margin: 5% 15% 0 15%;
+}
+
+footer {
+    border-top: 2px #cccccc solid;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex div {
+    margin: 0 2% 0 2%;
+}
+
+.center {
+    text-align: center;
+}
+
+header ul li {
+    background-image: url(../images/li-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    margin: 0% 2% 0% 2%;
+}
+
+#mv {
+    width: 100%;
+}
+
+#catch {
+    width: 100%;
+}
+
+#info {
+    border: 1px #dddddd solid;
+    border-radius: 10px;
+    background-color: #eeeeee;
+}
+
