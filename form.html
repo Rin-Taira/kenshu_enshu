@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/recipe.css">
+    <title>質問・感想フォーム</title>
+</head>
+<body class="center">
+    <h1>質問・感想フォーム</h1>
+    <form class="bdrdmain">
+        <p>氏名</p>
+        <input type="text" name="name">
+        <p>性別</p>
+        <label class="bdrdsub"><input type="radio" name="sex" value="male" checked>男</label>
+        <label class="bdrdsub"><input type="radio" name="sex" value="female">女</label>
+        <p>年齢</p>
+        <div class="container">
+            <select name="age">
+                <option value="0">10代以下</option>
+                <option value="10">10代</option>
+                <option value="20">20代</option>
+                <option value="30">30代</option>
+                <option value="40">40代</option>
+                <option value="50">50代</option>
+                <option value="60">60代以上</option>
+            </select>
+        </div>
+        <p>今後見てみたいレシピ</p>
+        <label class="bdrdsub"><input type="checkbox" name="genre" value="japan">和食</label>
+        <label class="bdrdsub"><input type="checkbox" name="genre" value="china">中華</label>
+        <label class="bdrdsub"><input type="checkbox" name="genre" value="europe">洋食</label>
+        <label class="bdrdsub"><input type="checkbox" name="genre" value="itali">イタリアン</label>
+        <label class="bdrdsub"><input type="checkbox" name="genre" value="sweets">スイーツ</label>
+        <label class="bdrdsub"><input type="checkbox" name="genre" value="else">その他</label>
+        <label for="message"><p>自由コメント欄</p></label>
+        <textarea name="message" id="message" rows="5" cols="50">ご自由に意見を記述してください</textarea>
+        <p>
+            <button type="submit">送信</button>
+            <button type="reset">取り消し</button>
+        </p>
+    </form>
+</body>
+</html>

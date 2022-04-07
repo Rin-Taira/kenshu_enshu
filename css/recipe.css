@@ -1,0 +1,64 @@
+body {
+    background-image: url(../images/bg_Argyle.jpg);
+}
+
+table {
+    border-collapse: collapse;
+    background-color: cornsilk;
+}
+
+td {
+    padding-right: 20px;
+    border: 3px coral solid;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.emphasis {
+    font-weight: bold;
+}
+
+.coral {
+    color: coral;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex p, .link {
+    margin-top: 0;
+}
+
+
+#curry {
+    border: 8px double coral;
+}
+
+#choco {
+    width: 300px;
+    height: 200px;
+}
+
+.bdrdmain {
+    border: 3px #ffabce solid;
+    border-radius: 20px;
+    margin: 0 30% 0 30%;
+    background-color: white;
+}
+
+.bdrdsub {
+    border: 2px #aaaaaa solid;
+    border-radius: 5px;
+    padding: 5px;
+}

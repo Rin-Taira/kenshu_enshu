@@ -1,0 +1,61 @@
+body {
+    background-color: #ddffff;
+}
+
+header {
+    color: olivedrab;
+}
+
+main {
+    border-top: 3px skyblue solid;
+    border-bottom: 3px skyblue solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.bdrd {
+    border: 2px #cccccc solid;
+    border-radius: 10px;
+    margin: 0 25% 0 25%;
+    background-color: white;
+    padding: 20px;
+}
+
+.txt {
+    width: 90%;
+    padding: 5px;
+    border: 2px #999999 solid;
+    border-radius: 5px;
+}
+
+.num {
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+    border: 2px #999999 solid;
+    border-radius: 5px;
+}
+
+.textarea {
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 250px;
+    min-width: 50%;
+    min-height: 50px;
+}
+
+.emphasis {
+    color: #ffffff;
+    background-color: #ff6666;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+}
