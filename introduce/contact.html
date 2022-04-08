@@ -1,0 +1,77 @@
+<!--
+    マイケルというアメリカの男の子のホームページを作りました。
+    見てくれた方を楽しませるために、すこしホラー要素を入れてみました。
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>contact</title>
+    </head>
+    <body>
+        <header>
+            <div class="flex">
+                <a href="index.html" id="title">michael</a>
+                <div id="nav">
+                    <ul class="flex">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="profile.html">profile</a></li>
+                        <li><a href="hobby.html">hobby</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <h1>ぼくのページはどうだったかい？</h1>
+            <p>ぜひコメントをくれるとうれしいな！</p>
+            <div id="contact">
+                <form action="thanks.html" method="post">
+                    <label>
+                        <p>
+                            name<br>
+                            <input type="text" name="name">
+                        </p>
+                    </label>
+                    <p>
+                        sex<br>
+                        <label><input type="radio" name="sex" value="male">male</label>
+                        <label><input type="radio" name="sex" value="female">female</label>
+                        <label><input type="radio" name="sex" value="other">other</label>
+                    </p>
+                    <label>
+                        <p>
+                            e-mail<br>
+                            <input type="text" name="mail">
+                        </p>
+                    </label>
+                    <label>
+                        <p>
+                            comment<br>
+                            <textarea name="comment" placeholder="free"></textarea>
+                        </p>
+                    </label>
+                    <p>
+                        need a reply?<br>
+                        <label><input type="radio" name="reply" value="yes">yes</label>
+                        <label><input type="radio" name="reply" value="no">no</label>
+                    </p>
+                    <p>
+                        wanna be my friend?<br>
+                        <label><input type="radio" name="friend" value="yes" checked>yes</label>
+                    </p>
+                    <p>
+                        <button type="submit">send</button>
+                    </p>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p class="center">michael's page</p>
+        </footer>
+    </body>
+</html>
